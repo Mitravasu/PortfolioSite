@@ -1,0 +1,29 @@
+.ProjectSpace {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    height: 50vh;
+    width: 100vw;
+    border-top: 1px solid orange;
+}
+
+.Projects {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Media {
+    height: 100%;
+    width: 100%;
+}
+
+.ProjectCard {
+    width: 30.65vw;
+    height: 37.5vh;
+    margin-left: 1.34vw;
+    margin-right: 1.34vw;
+    margin-top: 3%;
+}

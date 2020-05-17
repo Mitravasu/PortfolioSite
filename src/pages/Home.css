@@ -1,0 +1,41 @@
+.HomeProjectSpace {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-items: center;
+    height: 50vh;
+    width: 100vw;
+    border-top: 1px solid orange;
+}
+
+.HomeProfileSpace {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-items: center;
+    height: 50vh;
+    width: 100vw;
+    border-top: 1px solid orange;
+}
+
+.HomeMedia {
+    height: 100%;
+    width: 100%;
+}
+
+.HomeProjectCard {
+    width: 30.65vw;
+    height: 37.5vh;
+    margin-left: 1.34vw;
+    margin-right: 1.34vw;
+    margin-top: 3%;
+}
+
+/* .HomeProfile {
+    height: 75%;
+    width: 18%;
+    padding-left: 79%;
+    padding-top: 3.125%;
+} */
