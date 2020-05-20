@@ -9,6 +9,8 @@ import courierURL from '../images/courier.png';
 
 
 function Projects() {
+  document.title = "Mitravasu Prakash - Projects";
+  
   return (
     <div className="Projects">
     <div className="ProjectSpace">

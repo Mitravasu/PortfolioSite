@@ -8,6 +8,7 @@ import beatstarURL from '../images/beatstar.png';
 import profileURL from '../images/profile.jpg';
 
 function Home() {
+  document.title = "Mitravasu Prakash - Home";
   return (
     <div>
       <div className="HomeProjectSpace">
