@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.css';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Projects from '../pages/Projects';
-import Contact from '../pages/Contact';
 import Home from '../pages/Home';
 
 
