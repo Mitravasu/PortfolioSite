@@ -10,32 +10,30 @@ import courierURL from '../images/courier.png';
 
 function Projects() {
   document.title = "Mitravasu Prakash - Projects";
-  
+
   return (
-    <div className="Projects">
     <div className="ProjectSpace">
-      <a className="ProjectCard" href="https://cookingu.netlify.app/">
+      <a href="https://cookingu.netlify.app/">
         <Card className="ProjectCard">
           <CardMedia className="Media" image={cookingURL} title="CookingU" />
         </Card>
       </a>
-      <a className="ProjectCard" href="https://github.com/Mitravasu/BeatStar">
+      <a href="https://github.com/Mitravasu/BeatStar">
         <Card className="ProjectCard">
           <CardMedia className="Media" image={beatstarURL} title="BeatStar" />
         </Card>
       </a>
-      <a className="ProjectCard" href="https://physicsplaygroundu.netlify.app/">
+      <a href="https://physicsplaygroundu.netlify.app/">
         <Card className="ProjectCard">
           <CardMedia className="Media" image={physicsURL} title="PhysicPlayground" />
         </Card>
       </a>
-      <a className="ProjectCard" href="https://courieru.herokuapp.com/">
+      <a href="https://courieru.herokuapp.com/">
         <Card className="ProjectCard">
           <CardMedia className="Media" image={courierURL} title="CourierU" />
         </Card>
       </a>
     </div>
-  </div>
   );
 }
 

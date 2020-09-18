@@ -1,43 +1,40 @@
 import React from 'react';
 import './Header.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import Home from '../pages/Home';
 
 
 function Header() {
-  function handleChange(e) {
-    e.preventDefault();
-    var page = "";
-    page = e.target.value;
-    document.getElementById("display").innerHTML = "Project";
-    window.location.href = e.target.value;
-  }
-
   return (
-    <div className="Header">
+    <div>
       <Router>
-        <div className="HeaderLinks">
+        <div className='Header'>
           <Link className="HeaderLink" to="/">Home</Link>
           <Link className="HeaderLink" to="/projects">Projects</Link>
           <a className="HeaderLink" href="https://drive.google.com/file/d/1AiUPbDK04za_Pz7JL9qU7UR2SVOGmpB_/view?usp=sharing">Resume</a>
-          <Link className="HeaderLink" to="/contact">Contact Me</Link>
+        </div>
 
-          <Route exact path="/" component={Home} />
-          <Route exact path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
 
+        <Switch>
+          <Route path='/projects'>
+            <Projects />
+          </Route>
+          <Route path='/'>
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+      {/* 
           <select label="" className="LinkSelect" onChange={handleChange}>
             <option id="display" disabled selected hidden>Home</option>
             <option value="/" >Home</option>
             <option value="https://drive.google.com/file/d/1AiUPbDK04za_Pz7JL9qU7UR2SVOGmpB_/view?usp=sharing">Resume</option>
             <option value="projects">Projects</option>
             <option value="contact">Contact Me</option>
-          </select>
-        </div>
-      </Router>
-    </div>
+          </select> */}
+    </div >
   );
 }
 

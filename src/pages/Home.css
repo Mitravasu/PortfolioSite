@@ -1,41 +1,62 @@
+.Page {
+    background: linear-gradient(rgb(11,11,11) 95%, rgb(255, 131, 0));
+    display:grid;
+    height: auto;
+    width: 100vw;
+}
+
+.SkillsSpace {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+.IntroSpace {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
 .HomeProjectSpace {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: nowrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: space-evenly;
+    align-items: center;
     justify-items: center;
-    height: 50vh;
     width: 100vw;
-    border-top: 1px solid orange;
-}
-
-.HomeProfileSpace {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: nowrap; */
-    justify-items: center;
     height: 50vh;
-    width: 100vw;
-    border-top: 1px solid orange;
 }
-
 .HomeMedia {
     height: 100%;
-    width: 100%;
+    width: 100%
 }
 
 .HomeProjectCard {
-    width: 30.65vw;
-    height: 37.5vh;
-    margin-left: 1.34vw;
-    margin-right: 1.34vw;
-    margin-top: 3%;
+    height: 30vh;
+    width: 20vw;
+    border: 2px solid  rgb(255, 131, 0);
 }
 
-/* .HomeProfile {
-    height: 75%;
-    width: 18%;
-    padding-left: 79%;
-    padding-top: 3.125%;
-} */
+h1 {
+    color:  rgb(255, 131, 0);
+    text-decoration: none;
+    font-family: "Courier New";
+}
+
+p,li, a {
+    color: white;
+    text-decoration: none;
+    font-family: "Courier New";
+}
+
+a {
+    width: 20vw;
+}

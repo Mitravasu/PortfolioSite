@@ -1,3 +1,25 @@
-.App {
-  text-align: center;
+.Header {
+  position: absolute;
+  top: 0;
+}
+
+html {
+  overflow-x: hidden;
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color:  rgb(255, 131, 0) rgb(11,11,11);
+  scrollbar-width: auto;
+}
+
+::-webkit-scrollbar {
+  /* color: red; */
+  background-color: rgb(11,11,11);
+}
+
+::-webkit-scrollbar-thumb {
+  /* color: red; */
+  background: rgb(2,0,36);
+background: linear-gradient(rgb(11,11,11),  rgb(255, 131, 0), rgb(11,11,11));
+  /* background-color: linear-gradient(90deg,  rgb(255, 131, 0) 50%, rgb(11,11,11) 35%, blue 20%); */
 }
