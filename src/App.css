@@ -3,6 +3,11 @@
   top: 0;
 }
 
+.Footer {
+  position: absolute;
+  bottom: 0;
+}
+
 html {
   overflow-x: hidden;
   width: 300px;

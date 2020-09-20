@@ -1,38 +1,40 @@
 .Page {
-    background: linear-gradient(rgb(11,11,11) 95%, rgb(255, 131, 0));
-    display:grid;
+    background: rgb(11,11,11) 95%;
+    display:flex;
+    flex-direction: column;
     height: auto;
     width: 100vw;
 }
 
 .SkillsSpace {
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    justify-content: space-evenly;
-    align-items: center;
-    justify-items: center;
-    width: 100vw;
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 .IntroSpace {
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    justify-content: space-evenly;
-    align-items: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
     width: 100vw;
-    height: 50vh;
+    height: 20vh;
+    margin-left: 5%;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
 }
 
 .HomeProjectSpace {
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    justify-content: space-evenly;
-    align-items: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
+    margin-left: 5%;
 }
 .HomeMedia {
     height: 100%;
@@ -48,13 +50,23 @@
 h1 {
     color:  rgb(255, 131, 0);
     text-decoration: none;
-    font-family: "Courier New";
+    font-family: "Trebuchet MS";
+    font-size: 72px;
 }
 
-p,li, a {
+.SkillList {
+    display: flex;
+}
+
+h2, p,li, a {
     color: white;
     text-decoration: none;
-    font-family: "Courier New";
+    font-family: "Trebuchet MS";
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 a {
