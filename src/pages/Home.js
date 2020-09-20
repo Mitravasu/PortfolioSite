@@ -5,7 +5,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import cookingURL from '../images/cookingu.png';
 import physicsURL from '../images/physics.png';
 import beatstarURL from '../images/beatstar.png';
-import { Typography } from '@material-ui/core';
 
 function Home() {
   document.title = "Mitravasu Prakash - Home";
