@@ -13,26 +13,51 @@ function Projects() {
 
   return (
     <div className="ProjectSpace">
-      <a href="https://cookingu.netlify.app/">
-        <Card className="ProjectCard">
-          <CardMedia className="Media" image={cookingURL} title="CookingU" />
-        </Card>
-      </a>
-      <a href="https://github.com/Mitravasu/BeatStar">
-        <Card className="ProjectCard">
-          <CardMedia className="Media" image={beatstarURL} title="BeatStar" />
-        </Card>
-      </a>
-      <a href="https://physicsplaygroundu.netlify.app/">
-        <Card className="ProjectCard">
-          <CardMedia className="Media" image={physicsURL} title="PhysicPlayground" />
-        </Card>
-      </a>
-      <a href="https://courieru.herokuapp.com/">
-        <Card className="ProjectCard">
-          <CardMedia className="Media" image={courierURL} title="CourierU" />
-        </Card>
-      </a>
+      <div class="Projects">
+        <a class="Project" href="https://cookingu.netlify.app/">
+          <Card className="HomeProjectCard" square>
+            <CardMedia className="HomeMedia" image={cookingURL} title="CookingU" />
+          </Card>
+          <p>CookingU, a website for sharing recipes</p>
+          <ul>
+            <li>ReactJS</li>
+            <li>HTML5</li>
+            <li>Javascript</li>
+            <li>CSS3</li>
+          </ul>
+        </a>
+        <a class="Project" href="https://github.com/Mitravasu/BeatStar">
+          <Card className="HomeProjectCard" square>
+            <CardMedia className="HomeMedia" image={beatstarURL} title="CookingU" />
+          </Card>
+          <p>BeatStar, a beat-tapping game.</p>
+          <ul>
+            <li>Java</li>
+            <li>OOP</li>
+            <li>GUI</li>
+          </ul>
+        </a>
+        <a class="Project" href="https://physicsplaygroundu.netlify.app/">
+          <Card className="HomeProjectCard" square>
+            <CardMedia className="HomeMedia" image={physicsURL} title="CookingU" />
+          </Card>
+          <p>PhysicsPlaygroundU, a highschool physics lab simulator</p>
+          <ul>
+            <li>C#</li>
+            <li>Unity</li>
+          </ul>
+        </a>
+        <a class="Project" href="https://courieru.herokuapp.com/">
+          <Card className="HomeProjectCard" square>
+            <CardMedia className="HomeMedia" image={courierURL} title="CourierU" />
+          </Card>
+          <p>CourierU, a resource-delivery solution for the Covid-19 pandemic</p>
+          <ul>
+            <li>Bootstrap</li>
+            <li>MongoDB</li>
+          </ul>
+        </a>
+      </div>
     </div>
   );
 }

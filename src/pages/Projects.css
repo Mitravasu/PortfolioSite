@@ -1,13 +1,17 @@
 .ProjectSpace {
-    background: linear-gradient(rgb(11,11,11) 95%, rgb(255, 131, 0));
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    justify-content: space-evenly;
-    align-items: center;
-    justify-items: center;
-    width: 100vw;
-    height: 100vh;
+    background: rgb(11,11,11) 95%;
+    display:flex;
+    flex-direction: column;
+    height: fit-content;
+    min-height: 50vh;
+    width: 100%;
 }
+
+.ProjectSpace .Projects {
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
 .Media {
     height: 100%;
     width: 100%
