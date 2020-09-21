@@ -5,14 +5,17 @@
     background: black;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1em 10em;
 }
 
-.NavBox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.Top {
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5%;
+    font-size: 1em;
+    background-color: rgb(255, 131, 0);
+    border-radius: 5%;
 }
 
 .Link {
