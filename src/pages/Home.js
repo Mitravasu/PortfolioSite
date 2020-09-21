@@ -5,6 +5,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import cookingURL from '../images/cookingu.png';
 import physicsURL from '../images/physics.png';
 import beatstarURL from '../images/beatstar.png';
+import { BrowserRouter as  Link } from 'react-router-dom';
 
 function Home() {
   document.title = "Mitravasu Prakash - Home";
@@ -93,7 +94,7 @@ function Home() {
             </ul>
           </a>
         </div>
-        <p class="More">Want to see more projects? <a href="mitravasuprakash.netlify.app/projects">Click Here</a></p>
+        <p class="More">Want to see more projects? <Link to="/projects">Click Here</Link></p>
       </div>
     </div>
   );
