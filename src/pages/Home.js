@@ -92,8 +92,8 @@ function Home() {
               <li>Netlify CMS</li>
             </ul>
           </a>
-          <p class="More">Want to see more projects? <a href="/projects">Click Here</a></p>
         </div>
+        <p class="More">Want to see more projects? <a href="/projects">Click Here</a></p>
       </div>
     </div>
   );

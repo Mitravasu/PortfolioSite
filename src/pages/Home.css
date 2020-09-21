@@ -38,6 +38,8 @@
     color: white;
     height: fit-content;
     width: fit-content;
+    align-self: flex-start;
+    padding-bottom: 15em;
 }
 
 .More a:hover {
@@ -61,7 +63,6 @@
     height: fit-content;
     width: fit-content; */
     /* padding-left: 0; */
-    padding-bottom: 15em;
 }
 .HomeMedia {
     min-width: 200px;
