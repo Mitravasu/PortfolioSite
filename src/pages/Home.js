@@ -93,7 +93,7 @@ function Home() {
             </ul>
           </a>
         </div>
-        <p class="More">Want to see more projects? <a href="/projects">Click Here</a></p>
+        <p class="More">Want to see more projects? <a href="mitravasuprakash.netlify.app/projects">Click Here</a></p>
       </div>
     </div>
   );
