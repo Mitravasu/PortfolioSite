@@ -94,7 +94,6 @@ function Home() {
             </ul>
           </a>
         </div>
-        <p class="More">Want to see more projects? <Link to="/projects">Click Here</Link></p>
       </div>
     </div>
   );
