@@ -6,6 +6,7 @@ import cookingURL from '../images/cookingu.png';
 import physicsURL from '../images/physics.png';
 import beatstarURL from '../images/beatstar.png';
 import courierURL from '../images/courier.png';
+import manageURL from '../images/manageu.png';
 
 
 function Projects() {
@@ -24,6 +25,7 @@ function Projects() {
             <li>HTML5</li>
             <li>Javascript</li>
             <li>CSS3</li>
+            <li>Netlify CMS</li>
           </ul>
         </a>
         <a class="Project" href="https://github.com/Mitravasu/BeatStar">
@@ -45,6 +47,8 @@ function Projects() {
           <ul>
             <li>C#</li>
             <li>Unity</li>
+            <li>ReactJS</li>
+            <li>Netlify CMS</li>
           </ul>
         </a>
         <a class="Project" href="https://courieru.herokuapp.com/">
@@ -55,6 +59,19 @@ function Projects() {
           <ul>
             <li>Bootstrap</li>
             <li>MongoDB</li>
+            <li>Heroku</li>
+          </ul>
+        </a>
+        <a class="Project" href="https://github.com/l3n0ire/pythonDiscordBot">
+          <Card className="HomeProjectCard" square>
+            <CardMedia className="HomeMedia" image={manageURL} title="CourierU" />
+          </Card>
+          <p>ManageU, a self-management discord bot</p>
+          <ul>
+            <li>Python</li>
+            <li>MongoDB</li>
+            <li>Heroku</li>
+            <li>discord.py</li>
           </ul>
         </a>
       </div>

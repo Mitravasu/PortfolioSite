@@ -1,4 +1,34 @@
 .FooterBox {
-    padding: 10vh 8vw;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 15%;
     background: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.NavBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+
+.Link {
+    padding: 1%;
+}
+
+.Link:hover, .ContactBox p:hover {
+    color: rgb(255, 131, 0);
+}
+
+
+.Contact {
+    padding: 0;
+    margin: 0;
+}
+
+.Type {
+    color: rgb(255, 131, 0);
 }

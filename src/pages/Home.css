@@ -34,6 +34,15 @@
     padding-top: 5%;
 }
 
+.More {
+    color: white;
+    background-color: rgb(255, 131, 0);
+    height: fit-content;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 5%;
+}
+
 .Project {
     width: fit-content;
     height: fit-content;
@@ -57,10 +66,10 @@
 }
 
 .HomeProjectCard {
-    min-width: 296px;
-    min-height: 175px;
-    max-height: 400px;
-    max-width: 375px;
+    width: 296px;
+    height: 175px;
+    /* max-height: 400px;
+    max-width: 375px; */
     border: 2px solid  rgb(255, 131, 0);
 }
 
@@ -79,8 +88,8 @@ h1 {
 }
 
 .IntroSpace p {
-    padding-right: 10px;
-    text-align: justify;
+    max-width: 75%;
+    font-size: 1.25em;
 }
 
 h2, p,li, a {
@@ -99,6 +108,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    max-width: 296px;
 }
 
 li {

@@ -13,8 +13,8 @@ function Home() {
       <div class="IntroSpace">
         <h1>Hey, I'm Mitravasu Prakash!</h1>
         <p>
-          I am currently pursuing Statistics, with specialization in Machine Learning and Data Mining at the University of Toronto Scarborough.
-            <br />I enjoy software development and I want to learn more about data science.
+          I am an aspriring Software Developer and Data Scientist, and am currently pursuing a Bachelors of Science in Statistics, with specialization in Machine Learning and Data Mining at the University of Toronto Scarborough.
+            <br />I enjoy developing applications in Java and writing scripts in Python. 
           </p>
       </div>
       <div class="SkillsSpace">
@@ -47,6 +47,7 @@ function Home() {
               <li>Unity</li>
               <li>GUI</li>
               <li>SVN</li>
+              <li>JSON</li>
             </ul>
           </div>
 
@@ -65,6 +66,7 @@ function Home() {
               <li>HTML5</li>
               <li>Javascript</li>
               <li>CSS3</li>
+              <li>Netlify CMS</li>
             </ul>
           </a>
           <a class="Project" href="https://github.com/Mitravasu/BeatStar">
@@ -86,8 +88,11 @@ function Home() {
             <ul>
               <li>C#</li>
               <li>Unity</li>
+              <li>ReactJS</li>
+              <li>Netlify CMS</li>
             </ul>
           </a>
+          <p class="More">View More...</p>
         </div>
       </div>
     </div>
