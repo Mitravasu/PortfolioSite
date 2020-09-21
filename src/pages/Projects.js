@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
-import cookingURL from '../images/cookingu.png';
+import cookingURL from '../images/cookingu.webp';
 import physicsURL from '../images/physics.png';
 import beatstarURL from '../images/beatstar.png';
 import courierURL from '../images/courier.png';

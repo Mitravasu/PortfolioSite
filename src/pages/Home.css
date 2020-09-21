@@ -84,7 +84,7 @@ h1 {
 }
 
 h2, p,li, a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: "Trebuchet MS";
 }
@@ -104,7 +104,7 @@ ul {
 
 li {
     padding: 5px;
-    background-color: rgb(255, 131, 0);;
+    background-color: rgb(255, 132, 0);;
     border: 2px solid black;
     border-radius: 8px;
     width: fit-content;
