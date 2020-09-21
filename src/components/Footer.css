@@ -1,18 +1,18 @@
 .FooterBox {
     padding-top: 1%;
     padding-bottom: 3%;
-    padding-left: 15%;
+    padding-left: 10%;
     background: black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 1em 10em;
 }
 
 .NavBox {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 10%;
 }
 
 .Link {

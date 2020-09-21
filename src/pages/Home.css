@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     width: fit-content;
     height: fit-content;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 10%;
 }
 
@@ -21,7 +21,7 @@
     flex-direction: column;
     height: fit-content;
     width: fit-content;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 5%;
 }
 
@@ -30,18 +30,21 @@
     flex-direction: column;
     height: fit-content;
     width: fit-content;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 5%;
 }
 
 .More {
     color: white;
-    background-color: rgb(255, 131, 0);
     height: fit-content;
     width: fit-content;
-    padding: 1%;
-    border-radius: 5%;
 }
+
+.More a:hover {
+    color: rgb(255, 131, 0);
+}
+
+
 
 .Project {
     width: fit-content;
@@ -50,7 +53,7 @@
 .Projects {
     display: flex;
     flex-wrap: wrap;
-    gap: 2em 10em;
+    gap: 2em 13em;
     /* max-width: 1265; */
     /* display: flex;
     flex-wrap: wrap;
