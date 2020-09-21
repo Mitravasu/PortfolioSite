@@ -5,7 +5,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import cookingURL from '../images/cookingu.png';
 import physicsURL from '../images/physics.png';
 import beatstarURL from '../images/beatstar.png';
-import { BrowserRouter as  Link } from 'react-router-dom';
 
 function Home() {
   document.title = "Mitravasu Prakash - Home";

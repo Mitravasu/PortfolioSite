@@ -15,10 +15,7 @@ function Footer() {
         <p class="Contact"><span class="Type">Email:</span><br /> mitravasu.prakash@mail.utoronto.ca</p>
       </div>
       <div class="NavBox">
-        <h2>Explore</h2>
-        <a class="Link" href="/">Home</a>
-        <a class="Link" href="/projects">Projects</a>
-        <a class="Link" href="https://drive.google.com/file/d/1AiUPbDK04za_Pz7JL9qU7UR2SVOGmpB_/view?usp=sharing">Resume</a>
+        <a href="#Top">Back to Top</a>
       </div>
     </div>
   );
