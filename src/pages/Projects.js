@@ -3,7 +3,7 @@ import './Projects.css';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import cookingURL from '../images/cookingu.webp';
-import physicsURL from '../images/physics.png';
+import physicsURL from '../images/physics.webp';
 import beatstarURL from '../images/beatstar.png';
 import courierURL from '../images/courier.png';
 import manageURL from '../images/manageu.png';
