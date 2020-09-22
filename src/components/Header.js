@@ -3,6 +3,7 @@ import './Header.css';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Projects from '../pages/Projects';
 import Home from '../pages/Home';
+import resume from '../downloads/MitravasuPrakashResume.pdf'
 
 
 function Header() {
@@ -12,7 +13,7 @@ function Header() {
         <div className='Header'>
           <Link className="HeaderLink" to="/">Home</Link>
           <Link className="HeaderLink" to="/projects">Projects</Link>
-          <a className="HeaderLink" href="https://drive.google.com/file/d/1AiUPbDK04za_Pz7JL9qU7UR2SVOGmpB_/view?usp=sharing">Resume</a>
+          <a className="HeaderLink" rel="noopener noreferrer" href={resume} target="_blank" download="MitravasuPrakashResume.pdf">Resume</a>
         </div>
 
 
