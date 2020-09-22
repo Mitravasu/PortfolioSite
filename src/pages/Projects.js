@@ -26,6 +26,7 @@ function Projects() {
             <li>Javascript</li>
             <li>CSS3</li>
             <li>Netlify CMS</li>
+            <li>GitHub</li>
           </ul>
         </a>
         <a class="Project" href="https://github.com/Mitravasu/BeatStar">
@@ -49,6 +50,7 @@ function Projects() {
             <li>Unity</li>
             <li>ReactJS</li>
             <li>Netlify CMS</li>
+            <li>GitHub</li>
           </ul>
         </a>
         <a class="Project" href="https://courieru.herokuapp.com/">
@@ -60,6 +62,7 @@ function Projects() {
             <li>Bootstrap</li>
             <li>MongoDB</li>
             <li>Heroku</li>
+            <li>GitHub</li>
           </ul>
         </a>
         <a class="Project" href="https://github.com/l3n0ire/pythonDiscordBot">
@@ -72,6 +75,7 @@ function Projects() {
             <li>MongoDB</li>
             <li>Heroku</li>
             <li>discord.py</li>
+            <li>GitHub</li>
           </ul>
         </a>
       </div>

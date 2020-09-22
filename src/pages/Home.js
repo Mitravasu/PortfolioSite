@@ -28,6 +28,11 @@ function Home() {
               <li>Bootstrap</li>
               <li>Netlify CMS</li>
               <li>MongoDB</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+              <li>jQuery</li>
+              <li>JavaScript</li>
             </ul>
           </div>
           <div class="Skills">
@@ -43,8 +48,10 @@ function Home() {
             <h2>Other</h2>
             <ul>
               <li>OOP</li>
-              <li>Git</li>
+              <li>GitHub</li>
+              <li>Agile</li>
               <li>Unity</li>
+              <li>Software Design Patterns</li>
               <li>GUI</li>
               <li>SVN</li>
               <li>JSON</li>
@@ -67,6 +74,7 @@ function Home() {
               <li>Javascript</li>
               <li>CSS3</li>
               <li>Netlify CMS</li>
+              <li>GitHub</li>
             </ul>
           </a>
           <a class="Project" href="https://github.com/Mitravasu/BeatStar">
@@ -90,6 +98,7 @@ function Home() {
               <li>Unity</li>
               <li>ReactJS</li>
               <li>Netlify CMS</li>
+              <li>GitHub</li>
             </ul>
           </a>
         </div>
