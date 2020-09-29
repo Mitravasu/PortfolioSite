@@ -14,7 +14,8 @@ function Home() {
         <h1>Hey, I'm Mitravasu Prakash!</h1>
         <p>
           I am an aspriring Software Developer and Data Scientist, and am currently pursuing a Bachelors of Science in Statistics, with specialization in Machine Learning and Data Mining at the University of Toronto Scarborough.
-            <br />I enjoy developing applications in Java and writing scripts in Python. 
+            <br />I enjoy developing applications in Java and writing scripts in Python. <br /><br />
+            <span class='Learn'>My Current Learning Goal:</span> <span class='LearnSkill'>SQL</span><span class='LearnSkill'>Relational Databases</span>
           </p>
       </div>
       <div class="SkillsSpace">
