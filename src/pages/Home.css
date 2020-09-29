@@ -7,7 +7,20 @@
 }
 
 .Learn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.LearnGoal {
     color: rgb(255, 131, 0);
+    font-family: 'Trebuchet MS';
+}
+
+.LearnSkill {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
 }
 
 .IntroSpace {
@@ -82,12 +95,12 @@ h1 {
     gap: 2em;
 }
 
-.IntroSpace p {
+.IntroSpace p, .LearnGoal, .LearnSkill {
     max-width: 75%;
     font-size: 1.25em;
 }
 
-h2, p,li, a {
+h2, p, li, a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: "Trebuchet MS";
@@ -106,13 +119,14 @@ ul {
     max-width: 296px;
 }
 
-li, .LearnSkill {
+li, .LearnSkill{
     padding: 5px;
     background-color: rgb(255, 132, 0);;
     border: 2px solid black;
     border-radius: 8px;
     width: fit-content;
     height: fit-content;
+    list-style-type: none;
 }
 
 h2 {
