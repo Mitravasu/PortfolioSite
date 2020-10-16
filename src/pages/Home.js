@@ -16,9 +16,9 @@ function Home() {
           I am an aspriring Software Developer and Data Scientist, and am currently pursuing a Bachelors of Science in Statistics, with specialization in Machine Learning and Data Mining at the University of Toronto Scarborough.
           <br />I enjoy developing applications in Java and writing scripts in Python.
         </p>
-        <span class='Learn'><span class='LearnGoal'>My Current Learning Goal: </span>
-          <span class='LearnSkill'>Relational Databases</span><span class='LearnSkill'>SQL</span><span class='LearnSkill'>R</span><span class='LearnSkill'>REST API</span>
-          <span class='LearnSkill'>TensorFlow</span></span>
+        <span class='Learn'><span class='LearnGoal'>My Current Learning Goals: </span>
+          <span class='LearnSkill'>TensorFlow</span><span class='LearnSkill'>R</span><span class='LearnSkill'>REST API</span>
+        </span>
       </div>
       <div class="SkillsSpace">
         <h1>My Skills</h1>
@@ -51,6 +51,7 @@ function Home() {
             <h2>Other</h2>
             <ul>
               <li>OOP</li>
+              <li>SQL</li>
               <li>GitHub</li>
               <li>Agile</li>
               <li>Unity</li>
@@ -59,6 +60,7 @@ function Home() {
               <li>SVN</li>
               <li>Google Cloud Platform</li>
               <li>JSON</li>
+              <li>Relational Databases</li>
             </ul>
           </div>
 
