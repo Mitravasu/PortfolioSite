@@ -17,7 +17,8 @@ function Home() {
           <br />I enjoy developing applications in Java and writing scripts in Python.
         </p>
         <span class='Learn'><span class='LearnGoal'>My Current Learning Goal: </span>
-          <span class='LearnSkill'>Relational Databases</span><span class='LearnSkill'>SQL</span><span class='LearnSkill'>R</span><span class='LearnSkill'>REST API</span></span>
+          <span class='LearnSkill'>Relational Databases</span><span class='LearnSkill'>SQL</span><span class='LearnSkill'>R</span><span class='LearnSkill'>REST API</span>
+          <span class='LearnSkill'>TensorFlow</span></span>
       </div>
       <div class="SkillsSpace">
         <h1>My Skills</h1>
@@ -56,6 +57,7 @@ function Home() {
               <li>Software Design Patterns</li>
               <li>GUI</li>
               <li>SVN</li>
+              <li>Google Cloud Platform</li>
               <li>JSON</li>
             </ul>
           </div>
