@@ -23,3 +23,7 @@
     width: 20vw;
     border: 2px solid  rgb(255, 131, 0);
 }
+
+.description {
+    text-align: justify;
+}
