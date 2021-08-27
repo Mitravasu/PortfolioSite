@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
-import cookingURL from '../images/cookingu.webp';
+import courierURL from '../images/courier.png';
 import physicsURL from '../images/physics.webp';
 import beatstarURL from '../images/beatstar.png';
 
@@ -17,7 +17,7 @@ function Home() {
           <br />I enjoy developing applications in Java and writing scripts in Python.
         </p>
         <span class='Learn'><span class='LearnGoal'>My Current Learning Goals: </span>
-          <span class='LearnSkill'>TensorFlow</span><span class='LearnSkill'>R</span><span class='LearnSkill'>REST API</span>
+          <span class='LearnSkill'>TensorFlow</span><span class='LearnSkill'>R</span>
         </span>
       </div>
       <div class="SkillsSpace">
@@ -35,7 +35,6 @@ function Home() {
               <li>CSS</li>
               <li>SASS</li>
               <li>jQuery</li>
-              <li>JavaScript</li>
             </ul>
           </div>
           <div class="Skills">
@@ -45,6 +44,10 @@ function Home() {
               <li>Python</li>
               <li>C</li>
               <li>C#</li>
+              <li>Haskell</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>Visual Basic</li>
             </ul>
           </div>
           <div class="Skills">
@@ -61,6 +64,9 @@ function Home() {
               <li>Google Cloud Platform</li>
               <li>JSON</li>
               <li>Relational Databases</li>
+              <li>REST API</li>
+              <li>JIRA</li>
+              <li>CI/CD</li>
             </ul>
           </div>
 
@@ -69,18 +75,16 @@ function Home() {
       <div class="HomeProjectSpace">
         <h1>My Projects</h1>
         <div class="Projects">
-          <a class="Project" href="https://cookingu.netlify.app/">
+          <a class="Project" href="https://courieru.herokuapp.com/">
             <Card className="HomeProjectCard" square>
-              <CardMedia className="HomeMedia" image={cookingURL} title="CookingU" />
+              <CardMedia className="HomeMedia" image={courierURL} title="CookingU" />
             </Card>
-            <p>CookingU, a website for sharing recipes</p>
+            <p>CourierU, a resource-delivery solution for the Covid-19 pandemic</p>
             <ul>
-              <li>ReactJS</li>
-              <li>HTML5</li>
-              <li>Javascript</li>
-              <li>CSS3</li>
-              <li>Netlify CMS</li>
-              <li>GitHub</li>
+              <li>Bootstrap</li>
+              <li>MongoDB</li>
+              <li>Heroku</li>
+              <li>Github</li>
             </ul>
           </a>
           <a class="Project" href="https://github.com/Mitravasu/BeatStar">
