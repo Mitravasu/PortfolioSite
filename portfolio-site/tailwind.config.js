@@ -13,10 +13,11 @@ module.exports = {
         'profile': "url('/public/MitravasuPrakash.jpg')",
       },
       colors: {
-        'navtext': 'white',
+        'navtext': '#e8e8e8',
+        'navhover': 'white',
         'primary': 'black',        
         'secondary': '#191970',
-        'secondaryhover': '#2d2daf',
+        'secondaryhover': '#3030ec',
         'navbg': 'black',
         'cards': '#fafafa'
       },
