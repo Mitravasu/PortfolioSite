@@ -63,7 +63,7 @@ function Experience() {
 
     return (
       <div className="flex flex-col items-center text-left space-y-6">
-          <div className='w-4/5'>
+          <div className='w-4/5 flex justify-center'>
             <p className='font-bold text-4xl max-w-fit'>Work Experience</p>
           </div>
           {work_div}
