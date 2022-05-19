@@ -4,7 +4,7 @@ function Projects() {
   const projects = [
     {
       title: 'Spotify Recommendations',
-      description: 'An e-learning web-app developed to help the African Impact Initiative educate African entrepreneurs',
+      description: 'A tool to allow spotify users to generate recommendations based on their playlists and liked songs, and allows them to fine tune recommendations based on audio features.',
       extralinks: '',
       code: 'https://github.com/UTSCC09/project-bestestc09group',
       demo: 'https://bestestc09group.ml/',
