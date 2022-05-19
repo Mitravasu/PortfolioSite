@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import githubicon from '../github.svg'
-
 function Intro() {
     return (
       <div className="flex flex-col items-center justify-center h-screen font-sans">
