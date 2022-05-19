@@ -27,7 +27,7 @@ function ProjectCard(props) {
 
     return (
       <div className='flex flex-col w-full lg:w-5/12 shadow-2xl rounded-lg bg-gradient-to-r from-dark1 to-dark1'>
-          <div className='h-3/4 w-full rounded-t-lg'>
+          <div className='max-h-fit w-full rounded-t-lg'>
               <img className='w-full rounded-t-lg' alt={props.project.title} src={props.project.image}/>
           </div>
           <div className='p-4'>
