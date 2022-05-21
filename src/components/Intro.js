@@ -22,8 +22,8 @@ function Intro() {
           <a className='text-link hover:text-linkhover' href='MitravasuPrakash_Resume.pdf'>Resume PDF</a>
         </div>
         <div className='flex p-1'>
-          <FontAwesomeIcon class='h-16 w-16 m-1 cursor-pointer fill-current text-link hover:text-linkhover' icon={faGithub} />
-          <FontAwesomeIcon class='h-16 w-16 m-1 cursor-pointer fill-current text-link hover:text-linkhover' icon={faLinkedin} />
+            <a href='https://github.com/Mitravasu' target='_blank'><FontAwesomeIcon class='h-16 w-16 m-1 cursor-pointer fill-current text-link hover:text-linkhover' icon={faGithub} /></a>
+            <a href='https://www.linkedin.com/in/mitravasu-prakash/' target='_blank'><FontAwesomeIcon class='h-16 w-16 m-1 cursor-pointer fill-current text-link hover:text-linkhover' icon={faLinkedin} /></a>
         </div>
       </div>
     );
