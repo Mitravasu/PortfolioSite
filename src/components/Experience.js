@@ -8,8 +8,10 @@ function Experience() {
             dates: 'June 2022 - September 2022',
             link: 'https://basis.net/',
             image: 'basis.png',
-            tech: [],
-            description: []
+            tech: ['Java', 'Redis', 'JUnit', 'SQL', 'MongoDB', 'Kafka', 'Docker'],
+            description: [
+                'Enhanced testing environment to record real-time bidding spends to a Redis database'
+            ]
         },
         {
             role: 'Software Engineer',
