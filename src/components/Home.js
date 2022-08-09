@@ -6,23 +6,23 @@ import Skills from './Skills';
 
 function Home() {
     return (
-      <div className="Home space-y-5 bg-gradient-to-r from-dark1 via-dark2 to-dark1 text-light snap-mandatory snap-y">
-        <div className='pt-48 sm:py-8 w-screen min-h-screen snap-center' id='intro'>
+      <div className="Home space-y-5 w-auto bg-gradient-to-r from-dark1 via-dark2 to-dark1 text-light snap-mandatory snap-y">
+        <div className='pt-48 sm:py-8 min-h-screen snap-center' id='intro'>
             <Intro />
         </div>
-        <div className='w-screen min-h-screen snap-center' id='experience'>
+        <div className='min-h-screen snap-center' id='experience'>
             <div className='pt-48 sm:py-8'></div>
             <Experience />
         </div>
-        <div className='w-screen min-h-screen snap-center' id='education'>
+        <div className='min-h-screen snap-center' id='education'>
             <div className='pt-48 sm:py-8'></div>
             <Education />
         </div>
-        <div className='w-screen min-h-screen snap-center' id='projects'>
+        <div className='min-h-screen snap-center' id='projects'>
           <div className='pt-48 sm:py-8'></div>
             <Projects />
         </div>
-        <div className='w-screen min-h-screen snap-center' id='skills'>
+        <div className='min-h-screen snap-center' id='skills'>
           <div className='pt-48 sm:py-8'></div>
             <Skills />
         </div>
