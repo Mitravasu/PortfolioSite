@@ -13,7 +13,7 @@ function Intro() {
           Software Engineer
         </div>
         <div className='text-2xl p-1'>
-          Statistics Machine Learning and Data Science Co-op at University of Toronto
+          Computer Science Co-op at University of Toronto
         </div>
         <div className='text-xl p-1'>
           Toronto, ON | (647) 947-5052 | <a className='text-link hover:text-linkhover' href='mailto:mitravasu.prakash@mail.utoronto.ca'>mitravasu.prakash@mail.utoronto.ca</a>

@@ -3,17 +3,6 @@ import WorkCard from "./WorkCard";
 function Experience() {
     const experiences = [
         {
-            role: 'Software Engineer (Backend)',
-            company: 'Basis Technologies',
-            dates: 'June 2022 - September 2022',
-            link: 'https://basis.net/',
-            image: 'basis.png',
-            tech: ['Java', 'Redis', 'JUnit', 'SQL', 'MongoDB', 'Kafka', 'Docker'],
-            description: [
-                'Enhanced testing environment to record real-time bidding spends to a Redis database'
-            ]
-        },
-        {
             role: 'Software Engineer',
             company: 'University of Toronto Hatchery',
             dates: 'September 2021 - Present',
@@ -21,8 +10,22 @@ function Experience() {
             image: 'hatchery.png',
             tech: ['PHP', 'SQL', 'JavaScript', 'jQuery', 'AJAX', 'Wordpress', 'Tailwind'],
             description: [
-                'Developed a portal that allows administrators to schedule automatic emails sent to different startups by using Wordpress Cron',
-                'Enhanced existing application forms by making them look consistent across the site using Tailwind'
+                'Built an email scheduling portal to allow administrators to schedule and maintain emails to be sent to the specified startups',
+                'Refactored SQL queries to reduce page load times for the administrator dashboard by 41%',
+                'Restructured application forms to reflect updated requirements and refactored code to eliminate redundancies'
+            ]
+        },
+        {
+            role: 'Software Engineer (Backend)',
+            company: 'Basis Technologies',
+            dates: 'June 2022 - August 2022',
+            link: 'https://basis.net/',
+            image: 'basis.png',
+            tech: ['Java', 'Redis', 'JUnit', 'SQL', 'MongoDB', 'Kafka', 'Docker'],
+            description: [
+                'Enhanced testing environment to accurately simulate real-time bidding in a mock environment',
+                'Designed software architecture documents for a business intelligence project aiming to provide insight on why client ad campaigns went offline',
+                'Built API endpoints for the above business intelligence project to allow programmatic access to insights'
             ]
         },
         {
@@ -33,9 +36,10 @@ function Experience() {
             image: 'uhn.png',
             tech: ['PHP', 'SQL', 'JavaScript', 'Wordpress', 'MS Access', 'Visual Basic', 'Python'],
             description: [
-                'Developed a payroll portal used by 50 employees bi-weekly to submit their work hours',
-                'Implemented automatic reminder and summary emails to add transparency between employees and their project managers',
-                'Reduced database redundancies by 31% by conducting audits and normalizing research data in a MS Access database'
+                'Created a payroll portal to automate the timesheet submission process which is used by 50 employees bi-weekly to submit their work hours',
+                'Implemented automatic reminder and summary emails to increase transparency between employees and their project managers',
+                'Reduced database redundancies by 31% by conducting audits and normalizing research data in a MS Access database',
+                'Created reports and forms on MS Access using research data on kidney patients and the barriers preventing them from receiving treatment'
             ]
         },
         {

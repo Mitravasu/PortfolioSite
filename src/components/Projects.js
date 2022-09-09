@@ -4,7 +4,7 @@ function Projects() {
   const projects = [
     {
       title: 'Spotify Recommendations',
-      description: 'A tool to allow spotify users to generate recommendations based on their playlists and liked songs, and allows them to fine tune recommendations based on audio features.',
+      description: 'A tool which allows Spotify users to generate recommendations based on their playlists and liked songs, and allows them to fine tune recommendations based on audio features.',
       extralinks: '',
       code: 'https://github.com/UTSCC09/project-bestestc09group',
       demo: 'https://bestestc09group.ml/',
@@ -22,7 +22,7 @@ function Projects() {
     },
     {
       title: 'ManageU',
-      description: 'A discord bot that helps you organize your time.',
+      description: 'A discord bot that helps you organize your time by keeping track of tasks and sending reminder texts.',
       extralinks: '',
       code: 'https://github.com/l3n0ire/pythonDiscordBot',
       demo: '',
@@ -31,7 +31,7 @@ function Projects() {
     },
     {
       title: 'CourierU',
-      description: 'A management tool for food banks and charities to coordinate deliveries to those in need. Read more at',
+      description: 'A management tool for food banks and charities to coordinate deliveries to those in need.',
       extralinks: 'https://stories.mlh.io/5-awesome-hacks-you-can-make-with-radar-1b3f76dc7ea9',
       code: 'https://github.com/l3n0ire/courieru',
       demo: 'https://courieru.herokuapp.com/',
