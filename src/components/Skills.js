@@ -8,7 +8,7 @@ function Skills() {
         },
         {
             type: 'Frameworks and Libraries',
-            skills: ['Node.js', 'Express.js', 'React', 'Vue.js', 'jQuery', 'Bootstrap', 'Tailwind CSS', 'Pandas', 'NumPy', 'Scikit-learn', 'ChartJS']
+            skills: ['Node.js', 'Express.js', 'React', 'Vue.js', 'jQuery', 'Bootstrap', 'Tailwind CSS', 'Pandas', 'NumPy', 'Scikit-learn', 'ChartJS', 'JUnit 5', 'Selenium', 'Cucumber']
         },
         {
             type: 'Databases',

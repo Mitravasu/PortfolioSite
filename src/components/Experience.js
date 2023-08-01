@@ -16,7 +16,20 @@ function Experience() {
             ]
         },
         {
-            role: 'Software Engineer (Backend)',
+            role: 'Software Engineer, Automation',
+            company: 'Basis Technologies',
+            dates: 'June 2023 - August 2023',
+            link: 'https://basis.net/',
+            image: 'basis.png',
+            tech: ['Java', 'Selenium', 'Cucumber', 'JUnit 5', 'JIRA', 'JavaScript'],
+            description: [
+                'Enhanced testing environment to accurately simulate real-time bidding in a mock environment',
+                'Designed software architecture documents for a business intelligence project aiming to provide insight on why client ad campaigns went offline',
+                'Built API endpoints for the above business intelligence project to allow programmatic access to insights'
+            ]
+        },
+        {
+            role: 'Software Engineer, Platform',
             company: 'Basis Technologies',
             dates: 'June 2022 - August 2022',
             link: 'https://basis.net/',
