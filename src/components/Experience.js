@@ -23,9 +23,7 @@ function Experience() {
             image: 'basis.png',
             tech: ['Java', 'Selenium', 'Cucumber', 'JUnit 5', 'JIRA', 'JavaScript'],
             description: [
-                'Enhanced testing environment to accurately simulate real-time bidding in a mock environment',
-                'Designed software architecture documents for a business intelligence project aiming to provide insight on why client ad campaigns went offline',
-                'Built API endpoints for the above business intelligence project to allow programmatic access to insights'
+                'Designed and refactored automated tests using JUnit 5 to speed up test execution.',
             ]
         },
         {
